@@ -38,7 +38,7 @@ def run(args=None) -> None:
     media_id = api.get_media_id(args.post_url)
 
     user = api.get_user_id(
-        args.user_followers) if args.user_followers else api.authenticated_user_ide
+        args.user_followers) if args.user_followers else api.api.authenticated_user_id
     followers = api.get_followers(user)
 
     for follower in followers:
