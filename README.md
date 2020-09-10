@@ -1,4 +1,4 @@
-# InstaWay - Instagram Give-Away tag spammer
+# InstaWay - Instagram Give-Away tagger
 Tag all the followers of any given user in any Instagram give-away post.
 
 ## Command line options ##
