@@ -1,7 +1,7 @@
-from typing import Tuple
+import random, time
 
 
-def sleep_random(*duration: Tuple[float, float]) -> None:
+def sleep_random(duration: tuple) -> None:
     """
     sleep_random is designed to emulate a human user by pausing execution of the
     program (sleeping) for a random duration of time between `a` and `b` seconds.
